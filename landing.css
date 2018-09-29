@@ -576,7 +576,7 @@ h3{
 /*--------------------------------------------------------------------------*/
 
 
-@media only screen and (max-width : 500px ){ 
+@media only screen and (max-width : 375px ){ 
 *{
 		transition: all 1s;
 	}
