@@ -771,7 +771,7 @@ nav {
 }
 }
 
-@media only screen and (min-width : 992px ) and (max-width:1250px) {
+@media only screen and (min-device-width : 992px ) and (max-device-width:1250px) {
 	
 	.container_inner{
 		
@@ -980,7 +980,7 @@ nav {
 }
 
 
-@media only screen and (min-width : 768px ) and (max-width:992px){
+@media only screen and (min-device-width : 768px ) and (max-device-width:992px){
 
 
 	.container {
@@ -1187,7 +1187,7 @@ nav {
 
 }
 
-@media only screen and (min-width : 560px ) and (max-width:768px){
+@media only screen and (min-device-width : 560px ) and (max-device-width:768px){
 	*{
 		transition: all 1s;
 	}
