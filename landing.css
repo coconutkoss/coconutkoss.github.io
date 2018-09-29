@@ -580,9 +580,7 @@ h3{
 *{
 		transition: all 1s;
 	}
-	body {
-	overflow: hidden;
-	}
+	
 .container {
 		overflow: hidden;
 		width: 400px;	
