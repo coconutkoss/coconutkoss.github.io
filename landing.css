@@ -125,9 +125,7 @@ body{
 	
 }
 .menu_ul__nav {
-	position: absolute;
-	margin:0 0 0 325px;
-	z-index: -1;
+	display: none;
 }
 .menu_ul__nav img {
 	width: 20px;
@@ -592,7 +590,7 @@ h3{
 	height: auto;
 }
 .header {
-	position: relative;
+
 	height: 50px;
 	display:flex;
 }
@@ -602,15 +600,13 @@ h3{
 }
 
 .menu_ul__nav{
-	z-index: 999;
+	width: 3rem;
+	display: block;
 }
 
 nav {
-	position: absolute;
-	float: left;
-	z-index: -3;
-}
-
+	display: none;
+	}
 .header_info {
 	align-self: center;
 	margin: 0 0 0 0;
