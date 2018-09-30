@@ -581,7 +581,8 @@ h3{
 	
 .container {
 		overflow: hidden;
-		width: 400px;	
+		width:95%;
+		
 		padding: 0;
 		margin: 0 auto;	
 	}
@@ -606,6 +607,10 @@ h3{
 
 nav {
 	display: none;
+	display: -webkit-none;
+	display: -moz-none;
+	display: -ms-none;
+	
 	}
 .header_info {
 	align-self: center;
