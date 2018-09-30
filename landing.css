@@ -582,7 +582,6 @@ h3{
 .container {
 		overflow: hidden;
 		width:95%;
-		
 		padding: 0;
 		margin: 0 auto;	
 	}
@@ -602,10 +601,10 @@ h3{
 
 .menu_ul__nav{
 	width: 3rem;
-	display: block!important;
+	display: block;
 }
 
-nav {
+nav {	display: none;
 	display: none!important;
 	
 	}
