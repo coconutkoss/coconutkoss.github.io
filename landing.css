@@ -604,7 +604,7 @@ h3{
 	display: block;
 }
 	.header_menu, .nav_hid {
-	visibility: collapse;
+	display: none !important
 	}
 nav {	
 	display: none !important ;
