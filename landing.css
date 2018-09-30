@@ -602,14 +602,11 @@ h3{
 
 .menu_ul__nav{
 	width: 3rem;
-	display: block;
+	display: block!important;
 }
 
 nav {
-	display: none;
-	display: -webkit-none;
-	display: -moz-none;
-	display: -ms-none;
+	display: none!important;
 	
 	}
 .header_info {
