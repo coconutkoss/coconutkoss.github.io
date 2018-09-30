@@ -603,7 +603,10 @@ h3{
 	width: 3rem;
 	display: block;
 }
-nav {	visibility: collapse;
+	nav_hid {
+	visibility: collapse;
+	}
+.nav {	
 	display: none !important ;
 	
 	}
