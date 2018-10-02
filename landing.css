@@ -659,13 +659,14 @@ nav {
 .company_info{
 	width: 100%;
 	height: auto;
-
-	flex-direction: column;
 	display:flex;
 	justify-content: center;
+	flex-direction: column;
 }
 .company_part_text {
-	width: 100%;
+	width: 95%;
+	display:flex;
+	justify-content: center;
 	height: auto;
 	font-size: 15px;
 	text-align: justify;
