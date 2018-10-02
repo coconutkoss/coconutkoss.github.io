@@ -592,7 +592,8 @@ h3{
 		width: 375px;	
 		padding: 0;
 		margin: 0 auto;	
-	
+		display:flex;
+		justify-content: center;
 	}
 .container_header {
 	width: 100%;
@@ -601,7 +602,7 @@ h3{
 }
 
 .header {
-	background-color: #315142;
+	background-color: #ebebeb;
 	position: fixed;
 	width: 100vw;
 	z-index: 999;
@@ -648,16 +649,15 @@ nav {
 	align-items: center;
 }
 .container_company {
-	width: 95%;
+	width: 100%;
 	height: auto;
-	
 	flex-direction: column;
 	display:flex;
 	justify-content: center;
 	margin: 0;
 }
 .company_info{
-	width: 100%;
+	width: 95%;
 	height: auto;
 	display:flex;
 	justify-content: center;
@@ -708,14 +708,14 @@ nav {
 	margin-top:10px; 
 	display:flex;
 	justify-content: center;
-	width: 95%;
+	width: 100%;
 	height:180px;
 }
-.company_news_rogect {
+.company_news_rogects {
 	font-size: 15%;
 }
 .dop {
-	width: 100%;
+	width: 95%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -729,11 +729,15 @@ nav {
 	align-self: center;
 	text-align: center;
 }
-.container_contant .contant_head {
+.container_contant {
 	width: 100%;
 	display: flex;
 	height: auto;
 }
+	.contant_head {
+		width:95%;
+		
+	}
 	.container_contant {
 		display: flex;
 	
@@ -748,14 +752,17 @@ nav {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-
+	justify-content: center
 }
-.contant_slider{
-	width: 100%;
+.contant_slider {
+	width: 95%;
 	height: auto;
 	display: flex;
 	margin-top: 20px;
 }
+	.contant_slider_nav {
+	align-self: center;
+	}
 .demo {
 	align-self: center;
 }
