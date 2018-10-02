@@ -656,7 +656,7 @@ nav {
 	justify-content: center;
 	margin: 0;
 }
-.company_info{
+.company_info {
 	width: 95%;
 	height: auto;
 	display:flex;
@@ -705,12 +705,13 @@ nav {
 	height: auto;
 
 }
-.container_news{
+.container_news {
 	margin-top:10px; 
 	display:flex;
 	justify-content: center;
-	width: 100%;
+	width: 95vw;
 	height:180px;
+	align-self: center;
 }
 .company_news_rogects {
 	font-size: 15%;
@@ -720,7 +721,7 @@ nav {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: ;
+	
 	align-items: center;
 	
 }
@@ -732,10 +733,10 @@ nav {
 }
 .container_contant {
 	width: 100%;
-	display: flex;
 	height: auto;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
 	.contant_head {
 		width:95%;
@@ -751,6 +752,8 @@ nav {
 	width: 95%;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	
 }
 .contant_slider {
 	width: 100%;
