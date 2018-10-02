@@ -592,8 +592,7 @@ h3{
 		width: 375px;	
 		padding: 0;
 		margin: 0 auto;	
-	display:flex;
-	justify-content: center;
+	
 	}
 .container_header {
 	width: 100%;
@@ -651,15 +650,19 @@ nav {
 .container_company {
 	width: 95%;
 	height: auto;
-	display: flex;
+	
 	flex-direction: column;
+	display:flex;
+	justify-content: center;
 	margin: 0;
 }
 .company_info{
 	width: 100%;
 	height: auto;
-	display: flex;
+
 	flex-direction: column;
+	display:flex;
+	justify-content: center;
 }
 .company_part_text {
 	width: 100%;
@@ -702,7 +705,8 @@ nav {
 }
 .container_news{
 	margin-top:10px; 
-	display: flex;
+	display:flex;
+	justify-content: center;
 	width: 95%;
 	height:180px;
 }
@@ -729,6 +733,11 @@ nav {
 	display: flex;
 	height: auto;
 }
+	.container_contant {
+		display: flex;
+	
+	justify-content: center;
+	}
 .contant_head::after{
 	margin-left:36%;
 	width: 20%;
@@ -752,6 +761,8 @@ nav {
 .container_partners {
 	width: 95%;
 	height: auto;
+	display:flex;
+	justify-content: center;
 }
 .partners{
 	width: 100%;
