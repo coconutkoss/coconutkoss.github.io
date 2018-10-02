@@ -768,7 +768,7 @@ nav {
 	align-self: center;
 }
 .container_partners {
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	display:flex;
 	justify-content: center;
