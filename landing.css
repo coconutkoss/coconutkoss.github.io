@@ -734,29 +734,26 @@ nav {
 	width: 100%;
 	display: flex;
 	height: auto;
+	display: flex;
+	justify-content: center;
 }
 	.contant_head {
 		width:95%;
 		
 	}
-	.container_contant {
-		display: flex;
 	
-	justify-content: center;
-	}
 .contant_head::after{
 	margin-left:36%;
 	width: 20%;
 	
 	}
 .contant {
-	width: 100%;
+	width: 95%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 }
 .contant_slider {
-	width: 95%;
+	width: 100%;
 	height: auto;
 	display: flex;
 	margin-top: 20px;
