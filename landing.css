@@ -602,8 +602,7 @@ h3{
 }
 
 .header {
-	background-color:#ebebeb;
-	
+	background-color:#f2f2f2;
 	position: fixed;
 	width: 100vw;
 	z-index: 999;
