@@ -1448,6 +1448,9 @@ nav {
 	.container {
 		width: 1920px;	
 	}
+	.container_inner{
+		width:100%;
+	}
 	.container_header {
 		background-size: 100%;
 		height: 100vh;
