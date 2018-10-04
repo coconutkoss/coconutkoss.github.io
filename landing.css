@@ -587,7 +587,7 @@ h3{
 /*--------------------------------------------------------------------------*/
 
 
-@media only screen and (max-width : 500px ){ 
+@media only screen and (max-width : 699px ){ 
 
 .container {
 		overflow: hidden;
@@ -600,7 +600,7 @@ h3{
 .container_header {
 	width: 100%;
 	height: 100vh;
-	
+	background-size: 100%;
 }
 
 .header {
