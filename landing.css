@@ -1446,7 +1446,7 @@ nav {
 
 3
  
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width: 1251px) and (max-width:1920px){
 
 	.container {
 		width: 1824px;
